@@ -9,4 +9,7 @@ The bricks should be laid out on a 16x16 board, such that the two bordering side
 
 Install `make`: `choco install make`.
 
-Run `make init` to initialize the environment, `make test` to run the tests.
+Run:
+- `make init` to initialize the working environment (once).
+- `make testinit` to initialize the test environment (once).
+- `make test` to run the tests.
