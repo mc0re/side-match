@@ -12,7 +12,3 @@ def test_rotate():
     p = Piece(1, [2, 3, 4, 5])
     p.rotate_clockwise()
     assert p.patterns == [5, 2, 3, 4]
-
-
-if __name__ == "__main__":
-    pytest.main()
